@@ -1,0 +1,8 @@
+((("load-file" .
+   [0 0 0 0 0 0 0 0 1])
+  ("color-theme-monokai" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("require" .
+   [0 0 0 1 0 0 0])
+  ("setup-auto-complete" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

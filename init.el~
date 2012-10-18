@@ -1,0 +1,20 @@
+
+(add-to-list 'load-path "~/.emacs.d")
+(setq dotfiles-dir (file-name-directory
+                    (or (buffer-file-name) load-file-name)))
+(add-to-list 'load-path dotfiles-dir)
+(require 'setup-package)
+(require 'linum)
+(global-linum-mode 1)
+(require 'auto-complete-config)
+(ac-config-default)
+(color-theme-monokai)
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+(require 'setup-auto-complete)
+(global-set-key (kbd "M-x <up>") 'windmove-up)
+(global-set-key (kbd "M-x <down>") 'windmove-down)
+(global-set-key (kbd "M-x <right>") 'windmove-right)
+(global-set-key (kbd "M-x <left>") 'windmove-left)
